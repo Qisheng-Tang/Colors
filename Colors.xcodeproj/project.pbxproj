@@ -56,10 +56,10 @@
 			children = (
 				3436BAE220F03163002FD10E /* AppDelegate.swift */,
 				3436BAE620F03163002FD10E /* Main.storyboard */,
+				3436BAF620F03299002FD10E /* ColorsViewController.swift */,
 				3436BAE920F0316A002FD10E /* Assets.xcassets */,
 				3436BAEB20F0316A002FD10E /* LaunchScreen.storyboard */,
 				3436BAEE20F0316A002FD10E /* Info.plist */,
-				3436BAF620F03299002FD10E /* ColorsViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";

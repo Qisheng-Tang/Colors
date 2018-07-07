@@ -28,8 +28,10 @@ class ColorsViewController: UIViewController,UITableViewDelegate,UITableViewData
         return colors.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "colorcell", for: <#T##IndexPath#>)
-    }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "colorcell", for: indexPath)
+        cell.textLabel?.text = colors[indexPath.row]
+        return cell
+        }
     /*
     // MARK: - Navigation
 
